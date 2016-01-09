@@ -9,19 +9,23 @@
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate,NSTextFieldDelegate {
 
     @IBOutlet weak var window: NSWindow!
-
+    @IBOutlet weak var tfDirectory: NSTextField!
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
+    
 
+    
+    
 
 }
 

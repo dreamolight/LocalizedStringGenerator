@@ -10,6 +10,8 @@
 		F695FC041C412615003CEA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FC031C412615003CEA0E /* AppDelegate.swift */; };
 		F695FC061C412615003CEA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695FC051C412615003CEA0E /* Assets.xcassets */; };
 		F695FC091C412615003CEA0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F695FC071C412615003CEA0E /* MainMenu.xib */; };
+		F695FC111C412D84003CEA0E /* SWDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FC101C412D84003CEA0E /* SWDragView.swift */; };
+		F695FC131C414367003CEA0E /* SWGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FC121C414367003CEA0E /* SWGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		F695FC051C412615003CEA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F695FC081C412615003CEA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F695FC0A1C412615003CEA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F695FC101C412D84003CEA0E /* SWDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDragView.swift; sourceTree = "<group>"; };
+		F695FC121C414367003CEA0E /* SWGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,9 @@
 		F695FC021C412615003CEA0E /* LocalizedStringGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				F695FC121C414367003CEA0E /* SWGenerator.swift */,
 				F695FC031C412615003CEA0E /* AppDelegate.swift */,
+				F695FC101C412D84003CEA0E /* SWDragView.swift */,
 				F695FC051C412615003CEA0E /* Assets.xcassets */,
 				F695FC071C412615003CEA0E /* MainMenu.xib */,
 				F695FC0A1C412615003CEA0E /* Info.plist */,
@@ -128,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F695FC111C412D84003CEA0E /* SWDragView.swift in Sources */,
 				F695FC041C412615003CEA0E /* AppDelegate.swift in Sources */,
+				F695FC131C414367003CEA0E /* SWGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

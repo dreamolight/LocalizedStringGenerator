@@ -12,6 +12,7 @@
 		F695FC091C412615003CEA0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F695FC071C412615003CEA0E /* MainMenu.xib */; };
 		F695FC111C412D84003CEA0E /* SWDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FC101C412D84003CEA0E /* SWDragView.swift */; };
 		F695FC131C414367003CEA0E /* SWGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FC121C414367003CEA0E /* SWGenerator.swift */; };
+		F695FC151C416003003CEA0E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F695FC141C416003003CEA0E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F695FC0A1C412615003CEA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F695FC101C412D84003CEA0E /* SWDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDragView.swift; sourceTree = "<group>"; };
 		F695FC121C414367003CEA0E /* SWGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWGenerator.swift; sourceTree = "<group>"; };
+		F695FC141C416003003CEA0E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				F695FC021C412615003CEA0E /* LocalizedStringGenerator */,
 				F695FC011C412615003CEA0E /* Products */,
+				F695FC141C416003003CEA0E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +139,7 @@
 			files = (
 				F695FC111C412D84003CEA0E /* SWDragView.swift in Sources */,
 				F695FC041C412615003CEA0E /* AppDelegate.swift in Sources */,
+				F695FC151C416003003CEA0E /* README.md in Sources */,
 				F695FC131C414367003CEA0E /* SWGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
